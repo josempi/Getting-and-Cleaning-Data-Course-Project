@@ -47,7 +47,7 @@ files<-list.files(path_rf, recursive=TRUE)
 ## ACTIVITY DATA ##
 ## Load the data files for Activity info from the Y_test and Y_train.txt files in the respective     
 ## Activity data frames (ActivityTest and ActivityTrain).   
-## These data frames will contain the activity codes from the accelerometer files - here is the acticity code list:
+## These data frames will contain the activity codes from the accelerometer files - here is the activity code list:
 ## 1. Walking
 ## 2. Walking-upstairs
 ## 3. Walking_downstatirs
@@ -171,6 +171,7 @@ write.table(MergeInfo, file = "MergeInfo.csv",row.name=FALSE, sep = ",")
 
 ## Average each accelerometer variable for each activity and each subject/ user.
 MergeInfo2 <-aggregate(. ~subject + activity, MergeInfo, mean)
+## Creates a tidy set of 180 rows and 68 columns
 
 ## Order in ascending fashion the data data set by the subject column first and activity column second.
 MergeInfo2 <-MergeInfo2[order(MergeInfo2$subject,MergeInfo2$activity),]
