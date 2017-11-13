@@ -16,7 +16,7 @@ You will find a R script file called run_analysis.R that does the following:
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
 3. Uses descriptive activity names to name the activities in the data set.
 4. Appropriately labels the data set with descriptive variable names and creates a data file called MergeInfo.CSV.
-5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject, and creates a CSV data file called MergeInfoTidyData.csv
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject, and creates a text data file called MergeInfoTidyData.txt
      
 The file CodeBook.md contains a description of the variables, example of the data (truncated), and the transformation steps taken to merge all of the data into on file.
 
