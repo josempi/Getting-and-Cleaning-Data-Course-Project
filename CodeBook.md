@@ -55,7 +55,7 @@ Input Files:
         1. V1 - Feature Code
         2. V2 - Feature Name
         
-8. activity_labels.txt -- This files contains the activity codes
+8. activity_labels.txt -- This files contains the activity codes and descriptions
     - 2 columns, 6 rows
         1. V1 - Activity Code
         2. V2 - Activity Name
