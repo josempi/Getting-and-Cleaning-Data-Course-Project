@@ -261,4 +261,4 @@ Processing Approach:
 
 Output Files:
 1. MergeInfo.CSV -- contains merged accelerometer information
-2. MergeInfo2.CSV -- contains tidy accelerometer information
+2. MergeInfo2.txt -- contains tidy accelerometer information
