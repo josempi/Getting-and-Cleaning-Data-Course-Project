@@ -101,7 +101,7 @@ Processing Approach:
     
 6. Extract only the columns with std() and mean() measurements/ observations
     1. Compacts the MergeInfo data frame to 68 columns
-    2. Here is the selected/ extracted colum list:
+    2. Here is the selected/ extracted column list:
     
         -	tBodyAcc-mean()-X
         -	tBodyAcc-mean()-Y
