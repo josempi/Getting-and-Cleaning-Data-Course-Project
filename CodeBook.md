@@ -253,12 +253,12 @@ Processing Approach:
         -	subject
         -	activity
 
-8. Write the MergeInfo data frame to MergeInfo.CSV
+8. Write the MergeInfo data frame to MergeInfo.csv
 9. Aggregate data from MergeInfo into the MergeInfo2 data frame with the average of all variables
 10. Sort MergeInfo2 by Subject and Activity columns
-11. Write the MergeInfo2 file to MergeInfoTidyData.csv
+11. Write the MergeInfo2 file to a text file called MergeInfoTidyData.txt
 
 
 Output Files:
-1. MergeInfo.CSV -- contains merged accelerometer information
+1. MergeInfo.csv -- contains merged accelerometer information
 2. MergeInfo2.txt -- contains tidy accelerometer information
