@@ -169,8 +169,8 @@ Processing Approach:
         -	fBodyBodyGyroMag-std(): Number - measurement
         -	fBodyBodyGyroJerkMag-mean(): Number - measurement
         -	fBodyBodyGyroJerkMag-std(): Number - measurement
-        -	subject: Number - measurement
-        -	activity: Number - measurement
+        -	subject: Number - subject ID
+        -	activity: Number - activity code
 
 6. Convert activity codes to decriptive activities in the MergeInfo data frame
     - Activity description and codes:
