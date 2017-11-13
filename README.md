@@ -6,10 +6,10 @@ One of the most exciting areas in all of data science right now is wearable comp
 
 A full description is available at the site where the data was obtained:
 
-[link]http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 Here are the data for the project:
-[link]https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 You will find a R script file called run_analysis.R that does the following: 
 1. Merges the training and the test sets to create one data set.
@@ -27,6 +27,10 @@ Input Files:
 4. train/subject_train.txt -- This file contains accelerometer subject/ user ID info
 5. test/X_test.txt -- This file contains accelerometer measurements/ observations info
 6. train/subject_train.txt -- This file contains accelerometer measurements/ observations info
+7. features.txt -- This file contains the accelerometer column names
+8. activity_labels.txt -- This files contains the activity codes and descriptions
+
+
 
 Output Files:
 1. MergeInfo.CSV -- contains merged accelerometer information
@@ -53,10 +57,4 @@ Processing Approach:
 8. Write the MergeInfo data frame to MergeInfo.CSV
 9. Aggregate data from MergeInfo into the MergeInfo2 data frame with the average of all variables
 10. Sort MergeInfo2 by Subject and Activity columns
-11. Write the MergeInfo2 file to MergeInfoTidyData.csv
-
-
-
-
-1. test/subject_test.txt
-2. train/subject_train.txt
+11. Write the MergeInfo2 file to MergeInfoTidyData.txt
