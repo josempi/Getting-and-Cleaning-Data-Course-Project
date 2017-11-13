@@ -176,7 +176,7 @@ MergeInfo2 <-aggregate(. ~subject + activity, MergeInfo, mean)
 ## Order in ascending fashion the data data set by the subject column first and activity column second.
 MergeInfo2 <-MergeInfo2[order(MergeInfo2$subject,MergeInfo2$activity),]
 
-## Write MergeInfo2 to a CSV file.
+## Write MergeInfo2 to a text file.
 write.table(MergeInfo2, file = "MergeInfoTidyData.txt",row.name=FALSE)
 
 
